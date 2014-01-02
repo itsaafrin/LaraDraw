@@ -29,13 +29,3 @@ Route::group(array('prefix' => 'user', 'before' => array('user-auth')), function
             Route::get('/dashboard', array('uses' => 'User\UserDashboard@index'));
         });
 
-Route::get('/loadDB', function() {
-            $admin = new Role;
-            $admin->name = 'admin';
-            $admin->display_name = 'Admin';
-            $admin->save();
-
-            $author = new Role;
-            $author->name = 'author';
-            $author->display_name = 'Author';
-        });
