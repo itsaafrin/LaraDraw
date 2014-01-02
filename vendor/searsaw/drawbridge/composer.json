@@ -1,0 +1,29 @@
+{
+    "name": "searsaw/drawbridge",
+    "description": "Roles and permissions for Laravel 4.",
+    "keywords": ["laravel", "roles", "permissions", "magniloquent"],
+    "homepage": "https://github.com/searsaw/Drawbridge",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Sears",
+            "email": "alexwsears@gmail.com",
+            "homepage": "http://alexsears.com",
+            "role": "Creator/Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.x",
+        "magniloquent/magniloquent": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src/commands"
+        ],
+        "psr-0": {
+            "Searsaw\\Drawbridge\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
