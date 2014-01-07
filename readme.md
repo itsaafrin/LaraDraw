@@ -1,3 +1,5 @@
-## LaraDraw
+## LaraDraw -- Introduction
 
-Documentation Coming Soon
+LaraDraw is a sample of Laravel package intergrated with the Drawbridge ACL.
+
+
